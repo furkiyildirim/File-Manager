@@ -17,7 +17,6 @@ def main():
 
     # Menü çubuğu
     def new_file():
-        global refresh
         global nav_loc
         print('new file initialdir', nav_loc)
         file = filedialog.asksaveasfilename(
